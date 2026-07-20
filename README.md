@@ -6,13 +6,12 @@ In commercial projects I have worked with product master data, lakehouse pipelin
 
 ## Selected work
 
+- [Retail Streaming Lakehouse](https://github.com/TheEdfog/retail-streaming-lakehouse) - a replayable Kafka and Spark Structured Streaming pipeline with event-time deduplication, Iceberg, MinIO, Nessie and Trino.
+- [Event Contract Guard](https://github.com/TheEdfog/event-contract-guard) - runtime event validation and schema compatibility checks with quarantine routing, Prometheus metrics and a small Helm deployment.
 - [Sales Data Platform](https://github.com/TheEdfog/sales-data-platform) - a retail data pipeline with PostgreSQL and Greenplum modeling, Airflow orchestration, ClickHouse, data quality checks and a runnable Docker environment.
 - [PySpark Join Optimization Workshop](https://github.com/TheEdfog/pyspark-join-workshop) - a university master class I prepared and delivered, with a MovieLens 25M notebook, physical-plan experiments and eight homework variants.
 - [Career Intelligence Platform](https://github.com/TheEdfog/career-intelligence-platform) - a FastAPI application that parses vacancy requirements, calculates an explainable match and prepares tailored application documents.
 - [API Load Tester](https://github.com/TheEdfog/api-load-tester) - an asynchronous load-testing CLI with controlled request rates, bounded concurrency and latency reports.
-- [Study Cards API](https://github.com/TheEdfog/study-cards-api) - a privacy-aware FastAPI service with in-memory document parsing, optional structured AI generation and SM-2 review scheduling.
-- [Methane Forecasting](https://github.com/TheEdfog/methane-forecasting) - a time-series ML exercise rebuilt with a chronological split, past-only features, a persistence baseline and reproducible sample data.
-- [Neural FCA](https://github.com/TheEdfog/neural-fca) - an interpretable classifier where formal concepts act as hidden neurons and explain individual predictions.
 
 ## Tools I use
 
@@ -25,4 +24,4 @@ Python, SQL, PySpark, Spark, Airflow, Databricks, Delta Lake, Greenplum, ClickHo
 - Used Spark to investigate about 55 million transaction logs and locate data-loss stages in an ML pipeline.
 - Developed ML API load-testing tools that reached over 5,000 requests per second and helped reduce CPU and memory use by about 70 percent without breaching the SLA.
 
-I am currently learning more about Kafka, Iceberg, Spark Structured Streaming and production observability.
+I am currently going deeper into Kubernetes, event contracts and production observability.
