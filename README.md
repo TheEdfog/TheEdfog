@@ -1,39 +1,26 @@
-# Hi, I'm Alim 👋
+# Alim Narmamatov
 
-I'm a Data Engineer focused on reliable batch pipelines, distributed processing, analytical data models, and data quality.
+I am a Data Engineer. Most of my work is around batch pipelines, distributed processing, analytical data models and data quality.
 
-My commercial work includes product master data, lakehouse pipelines, feature stores, large-scale log analysis, and performance testing of ML APIs. I enjoy turning fragmented source data into well-tested datasets that are understandable to both engineers and business users.
+In commercial projects I have worked with product master data, lakehouse pipelines, feature stores, large log datasets and load testing for ML APIs. I prefer systems that are easy to inspect: explicit transformations, useful validation and documentation that matches the code.
 
-## What I work with
+## Selected work
 
-- **Data processing:** Python, SQL, PySpark, Apache Spark, pandas, Polars
-- **Orchestration:** Apache Airflow
-- **Warehouses and databases:** Databricks, Delta Lake, Greenplum, ClickHouse, PostgreSQL, Oracle, Trino
-- **Data quality:** reusable validation frameworks, schema and business-rule checks
-- **Engineering:** Git, CI/CD, Docker, Linux, REST APIs, unit testing
-- **BI and diagnostics:** Power BI, Apache Superset, Kibana
+- [Sales Data Platform](https://github.com/TheEdfog/sales-data-platform) - a retail data pipeline with PostgreSQL and Greenplum modeling, Airflow orchestration, ClickHouse, data quality checks and a runnable Docker environment.
+- [Career Intelligence Platform](https://github.com/TheEdfog/career-intelligence-platform) - a FastAPI application that parses vacancy requirements, calculates an explainable match and prepares tailored application documents.
+- [API Load Tester](https://github.com/TheEdfog/api-load-tester) - an asynchronous load-testing CLI with controlled request rates, bounded concurrency and latency reports.
+- [Methane Forecasting](https://github.com/TheEdfog/methane-forecasting) - a time-series ML exercise rebuilt with a chronological split, past-only features, a persistence baseline and reproducible sample data.
+- [Neural FCA](https://github.com/TheEdfog/neural-fca) - an interpretable classifier where formal concepts act as hidden neurons and explain individual predictions.
 
-## Selected projects
+## Tools I use
 
-### [Sales Data Platform](https://github.com/TheEdfog/sales-data-platform)
+Python, SQL, PySpark, Spark, Airflow, Databricks, Delta Lake, Greenplum, ClickHouse, PostgreSQL, Oracle, Trino, Docker, Git and CI/CD.
 
-Retail analytics pipeline with PostgreSQL/Greenplum modeling, an Airflow DAG, a ClickHouse serving layer, synthetic data, automated mart validation, Docker Compose, and CI.
+## A few examples from my work
 
-### [Career Intelligence Platform](https://github.com/TheEdfog/career-intelligence-platform)
+- Built a reusable data quality framework with more than 70 schema, null, duplicate, cardinality, relationship and business-rule checks.
+- Worked on a centralized product master-data layer with over 1.5 million records used by more than 80 IT specialists and 200 business users.
+- Used Spark to investigate about 55 million transaction logs and locate data-loss stages in an ML pipeline.
+- Developed ML API load-testing tools that reached over 5,000 requests per second and helped reduce CPU and memory use by about 70 percent without breaching the SLA.
 
-Explainable vacancy-matching application with normalized requirements, evidence-based scoring, PostgreSQL persistence, tailored document generation, optional LLM enrichment, 46 automated tests, Docker Compose, and CI.
-
-### [API Load Tester](https://github.com/TheEdfog/api-load-tester)
-
-Asynchronous HTTP load-testing CLI with constant and ramp-up traffic profiles, bounded concurrency, p50/p95/p99 latency metrics, JSON reports, a FastAPI demo service, tests, Docker Compose, and CI.
-
-## Engineering highlights
-
-- Built a reusable Data Quality framework with 70+ schema, null, duplicate, cardinality, relationship, and business-rule checks.
-- Worked on a centralized product master-data layer with 1.5M+ records used by 80+ IT specialists and 200+ business users.
-- Investigated approximately 55M transaction logs with Spark to localize data-loss stages in an ML pipeline.
-- Developed ML API load-testing tooling that reached 5,000+ RPS and supported configurations reducing CPU and memory consumption by about 70% without breaching SLA.
-
-## Current focus
-
-I'm deepening my experience in streaming architectures, Kafka, Iceberg, Spark Structured Streaming, and production-grade observability.
+I am currently learning more about Kafka, Iceberg, Spark Structured Streaming and production observability.
