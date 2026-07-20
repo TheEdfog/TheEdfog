@@ -1,26 +1,26 @@
-# Alim Narmamatov
+# Алим Нармаматов
 
-I am a Data Engineer. Most of my work is around batch pipelines, distributed processing, analytical data models and data quality.
+Data Engineer. Основные направления моей работы — ETL/ELT-пайплайны, распределённая обработка, аналитические модели данных и контроль качества.
 
-In commercial projects I have worked with product master data, lakehouse pipelines, feature stores, large log datasets and load testing for ML APIs. I prefer systems that are easy to inspect: explicit transformations, useful validation and documentation that matches the code.
+В коммерческих проектах я работал с мастер-данными, lakehouse-пайплайнами, Feature Store, большими наборами логов и нагрузочным тестированием ML API. В инженерных решениях ценю прозрачные преобразования, автоматические проверки и документацию, которая соответствует коду.
 
-## Selected work
+## Основные проекты
 
-- [PySpark Join Optimization Workshop](https://github.com/TheEdfog/pyspark-join-workshop) - a university master class I prepared and delivered, with a MovieLens 25M notebook, physical-plan experiments and eight homework variants.
-- [Sales Data Platform](https://github.com/TheEdfog/sales-data-platform) - a retail pipeline with PostgreSQL/Greenplum modeling, Airflow orchestration, ClickHouse and executable data-quality checks.
-- [API Load Tester](https://github.com/TheEdfog/api-load-tester) - an asynchronous load-testing CLI with controlled request rates, bounded concurrency and latency reports.
-- [Retail Streaming Lakehouse](https://github.com/TheEdfog/retail-streaming-lakehouse) - a local Kafka and Spark Structured Streaming case study with event-time deduplication, quarantine and Iceberg/Trino configuration.
-- [Event Contract Guard](https://github.com/TheEdfog/event-contract-guard) - event validation and schema compatibility checks with quarantine routing, Prometheus metrics and a small Helm chart.
+- [Оптимизация join в PySpark](https://github.com/TheEdfog/pyspark-join-workshop) — материалы проведённого мной университетского мастер-класса: MovieLens 25M, анализ физических планов и восемь вариантов домашних заданий.
+- [Платформа аналитики продаж](https://github.com/TheEdfog/sales-data-platform) — пайплайн на PostgreSQL/Greenplum, Airflow и ClickHouse с витриной и исполняемыми проверками качества данных.
+- [Нагрузочное тестирование API](https://github.com/TheEdfog/api-load-tester) — асинхронный CLI-инструмент с контролем RPS и concurrency, расчётом p50/p95/p99 и JSON-отчётами.
+- [Streaming Lakehouse](https://github.com/TheEdfog/retail-streaming-lakehouse) — локальный стенд Kafka и Spark Structured Streaming с event-time дедупликацией, quarantine и конфигурацией Iceberg/Trino.
+- [Контракты событий](https://github.com/TheEdfog/event-contract-guard) — runtime-валидация событий, проверка совместимости схем, quarantine, метрики Prometheus и Helm chart.
 
-## Tools I use
+## Стек
 
-Python, SQL, PySpark, Spark, Airflow, Databricks, Delta Lake, Greenplum, ClickHouse, PostgreSQL, Oracle, Trino, Docker, Git and CI/CD.
+Python, SQL, PySpark, Spark, Airflow, Databricks, Delta Lake, Greenplum, ClickHouse, PostgreSQL, Oracle, Trino, Docker, Git и CI/CD.
 
-## A few examples from my work
+## Примеры задач из коммерческого опыта
 
-- Built a reusable data quality framework with more than 70 schema, null, duplicate, cardinality, relationship and business-rule checks.
-- Worked on a centralized product master-data layer with over 1.5 million records used by more than 80 IT specialists and 200 business users.
-- Used Spark to investigate about 55 million transaction logs and locate data-loss stages in an ML pipeline.
-- Developed ML API load-testing tools that reached over 5,000 requests per second and helped reduce CPU and memory use by about 70 percent without breaching the SLA.
+- Разработал переиспользуемый Data Quality-фреймворк с более чем 70 проверками схемы, пропусков, дубликатов, кардинальности, связей и бизнес-правил.
+- Работал над централизованным слоем мастер-данных объёмом более 1,5 млн записей для 80+ IT- и 200+ бизнес-пользователей.
+- С помощью Spark исследовал около 55 млн логов транзакций и локализовал этапы потери данных в ML-пайплайне.
+- Разрабатывал инструменты нагрузочного тестирования ML API: более 5 000 запросов в секунду; результаты помогли снизить потребление CPU и памяти примерно на 70% без нарушения SLA.
 
-I am currently going deeper into Kubernetes, event contracts and production observability.
+Сейчас углубляю знания Kubernetes, контрактов данных и production observability.
