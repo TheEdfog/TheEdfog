@@ -15,11 +15,11 @@ My commercial work includes product master data, lakehouse pipelines, feature st
 
 ## Selected projects
 
-### [Sales Data Platform](https://github.com/TheEdfog/sales_dashboard)
+### [Sales Data Platform](https://github.com/TheEdfog/sales-data-platform)
 
 Retail analytics pipeline with PostgreSQL/Greenplum modeling, an Airflow DAG, a ClickHouse serving layer, synthetic data, automated mart validation, Docker Compose, and CI.
 
-### [API Load Tester](https://github.com/TheEdfog/loading_test)
+### [API Load Tester](https://github.com/TheEdfog/api-load-tester)
 
 Asynchronous HTTP load-testing CLI with constant and ramp-up traffic profiles, bounded concurrency, p50/p95/p99 latency metrics, JSON reports, a FastAPI demo service, tests, Docker Compose, and CI.
 
@@ -33,4 +33,3 @@ Asynchronous HTTP load-testing CLI with constant and ramp-up traffic profiles, b
 ## Current focus
 
 I'm deepening my experience in streaming architectures, Kafka, Iceberg, Spark Structured Streaming, and production-grade observability.
-
