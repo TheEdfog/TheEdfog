@@ -19,6 +19,10 @@ My commercial work includes product master data, lakehouse pipelines, feature st
 
 Retail analytics pipeline with PostgreSQL/Greenplum modeling, an Airflow DAG, a ClickHouse serving layer, synthetic data, automated mart validation, Docker Compose, and CI.
 
+### [Career Intelligence Platform](https://github.com/TheEdfog/career-intelligence-platform)
+
+Explainable vacancy-matching application with normalized requirements, evidence-based scoring, PostgreSQL persistence, tailored document generation, optional LLM enrichment, 46 automated tests, Docker Compose, and CI.
+
 ### [API Load Tester](https://github.com/TheEdfog/api-load-tester)
 
 Asynchronous HTTP load-testing CLI with constant and ramp-up traffic profiles, bounded concurrency, p50/p95/p99 latency metrics, JSON reports, a FastAPI demo service, tests, Docker Compose, and CI.
