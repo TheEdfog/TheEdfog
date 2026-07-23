@@ -1,16 +1,16 @@
 # Алим Нармаматов
 
-Data Engineer. Основные направления моей работы — ETL/ELT-пайплайны, распределённая обработка, аналитические модели данных и контроль качества.
+Data Engineer. Работаю с ETL/ELT-пайплайнами, распределённой обработкой, аналитическими моделями данных и контролем качества.
 
 В коммерческих проектах я работал с мастер-данными, lakehouse-пайплайнами, Feature Store, большими наборами логов и нагрузочным тестированием ML API. В инженерных решениях ценю прозрачные преобразования, автоматические проверки и документацию, которая соответствует коду.
 
 ## Основные проекты
 
-- [Оптимизация join в PySpark](https://github.com/TheEdfog/pyspark-join-workshop) — материалы проведённого мной университетского мастер-класса: MovieLens 25M, анализ физических планов и восемь вариантов домашних заданий.
-- [Платформа аналитики продаж](https://github.com/TheEdfog/sales-data-platform) — пайплайн на PostgreSQL/Greenplum, Airflow и ClickHouse с витриной и исполняемыми проверками качества данных.
-- [Нагрузочное тестирование API](https://github.com/TheEdfog/api-load-tester) — асинхронный CLI-инструмент с контролем RPS и concurrency, расчётом p50/p95/p99 и JSON-отчётами.
-- [Streaming Lakehouse](https://github.com/TheEdfog/retail-streaming-lakehouse) — локальный стенд Kafka и Spark Structured Streaming с event-time дедупликацией, quarantine и конфигурацией Iceberg/Trino.
-- [Контракты событий](https://github.com/TheEdfog/event-contract-guard) — runtime-валидация событий, проверка совместимости схем, quarantine, метрики Prometheus и Helm chart.
+- [Оптимизация join в PySpark](https://github.com/TheEdfog/pyspark-join-workshop). Материалы проведённого мной университетского мастер-класса: MovieLens 25M, анализ физических планов и восемь вариантов домашних заданий.
+- [Платформа аналитики продаж](https://github.com/TheEdfog/sales-data-platform). Пайплайн на PostgreSQL/Greenplum, Airflow и ClickHouse с витриной и исполняемыми проверками качества данных.
+- [Нагрузочное тестирование API](https://github.com/TheEdfog/api-load-tester). Асинхронный CLI-инструмент с контролем RPS и concurrency, расчётом p50/p95/p99 и JSON-отчётами.
+- [Streaming Lakehouse](https://github.com/TheEdfog/retail-streaming-lakehouse). Локальный стенд Kafka и Spark Structured Streaming с event-time дедупликацией, quarantine и конфигурацией Iceberg/Trino.
+- [Контракты событий](https://github.com/TheEdfog/event-contract-guard). Runtime-валидация событий, проверка совместимости схем, quarantine, метрики Prometheus и Helm chart.
 
 ## Стек
 
